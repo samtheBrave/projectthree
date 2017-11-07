@@ -1,0 +1,71 @@
+x_train shape: (7627, 80)
+x_test shape: (954, 80)
+Build model...
+Train...
+Train on 7627 samples, validate on 954 samples
+Epoch 1/15
+2017-10-27 15:20:28.060117: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-27 15:20:28.060379: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-27 15:20:28.060683: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-27 15:20:28.060927: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-27 15:20:28.061168: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-27 15:20:28.061415: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-27 15:20:28.061789: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-27 15:20:28.062160: W c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\platform\cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-10-27 15:20:28.472599: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:887] Found device 0 with properties: 
+name: GeForce GTX 1060
+major: 6 minor: 1 memoryClockRate (GHz) 1.6705
+pciBusID 0000:01:00.0
+Total memory: 6.00GiB
+Free memory: 4.97GiB
+2017-10-27 15:20:28.472875: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:908] DMA: 0 
+2017-10-27 15:20:28.473004: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:918] 0:   Y 
+2017-10-27 15:20:28.473145: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\gpu_device.cc:977] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1060, pci bus id: 0000:01:00.0)
+2017-10-27 15:20:31.043058: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 5283 get requests, put_count=2901 evicted_count=1000 eviction_rate=0.344709 and unsatisfied allocation rate=0.659095
+2017-10-27 15:20:31.043386: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:259] Raising pool_size_limit_ from 100 to 110
+  96/7627 [..............................] - ETA: 263s - loss: 1.9319 - acc: 0.47922017-10-27 15:20:31.516474: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 6252 get requests, put_count=5936 evicted_count=3000 eviction_rate=0.505391 and unsatisfied allocation rate=0.53247
+2017-10-27 15:20:31.516727: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:259] Raising pool_size_limit_ from 146 to 160
+ 192/7627 [..............................] - ETA: 146s - loss: 1.8957 - acc: 0.68752017-10-27 15:20:31.930305: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 1001 get requests, put_count=1994 evicted_count=1000 eviction_rate=0.501505 and unsatisfied allocation rate=0.025974
+2017-10-27 15:20:31.930649: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:259] Raising pool_size_limit_ from 212 to 233
+ 288/7627 [>.............................] - ETA: 107s - loss: 1.8112 - acc: 0.76042017-10-27 15:20:32.361025: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 854 get requests, put_count=1876 evicted_count=1000 eviction_rate=0.533049 and unsatisfied allocation rate=0.00702576
+2017-10-27 15:20:32.361363: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:259] Raising pool_size_limit_ from 309 to 339
+ 384/7627 [>.............................] - ETA: 87s - loss: 1.6024 - acc: 0.78122017-10-27 15:20:32.835129: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 1363 get requests, put_count=3407 evicted_count=2000 eviction_rate=0.587027 and unsatisfied allocation rate=0
+ 512/7627 [=>............................] - ETA: 72s - loss: 1.3299 - acc: 0.80662017-10-27 15:20:33.320389: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 6699 get requests, put_count=6947 evicted_count=3000 eviction_rate=0.431841 and unsatisfied allocation rate=0.419615
+2017-10-27 15:20:33.320687: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:259] Raising pool_size_limit_ from 655 to 720
+ 640/7627 [=>............................] - ETA: 62s - loss: 1.1534 - acc: 0.82342017-10-27 15:20:33.821013: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 6163 get requests, put_count=5736 evicted_count=2000 eviction_rate=0.348675 and unsatisfied allocation rate=0.407918
+2017-10-27 15:20:33.821394: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:259] Raising pool_size_limit_ from 958 to 1053
+ 768/7627 [==>...........................] - ETA: 56s - loss: 1.0439 - acc: 0.83072017-10-27 15:20:34.485589: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 696 get requests, put_count=1836 evicted_count=1000 eviction_rate=0.544662 and unsatisfied allocation rate=0
+1088/7627 [===>..........................] - ETA: 46s - loss: 0.8897 - acc: 0.83552017-10-27 15:20:35.778429: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:247] PoolAllocator: After 13104 get requests, put_count=13433 evicted_count=1000 eviction_rate=0.0744435 and unsatisfied allocation rate=0.0719628
+2017-10-27 15:20:35.778806: I c:\tf_jenkins\home\workspace\release-win\device\gpu\os\windows\tensorflow\core\common_runtime\gpu\pool_allocator.cc:259] Raising pool_size_limit_ from 2997 to 3296
+7627/7627 [==============================] - 35s - loss: 0.4676 - acc: 0.8745 - val_loss: 0.3310 - val_acc: 0.9015
+Epoch 2/15
+7627/7627 [==============================] - 30s - loss: 0.2689 - acc: 0.9145 - val_loss: 0.3046 - val_acc: 0.9057
+Epoch 3/15
+7627/7627 [==============================] - 29s - loss: 0.1999 - acc: 0.9400 - val_loss: 0.3033 - val_acc: 0.9119
+Epoch 4/15
+7627/7627 [==============================] - 30s - loss: 0.1648 - acc: 0.9495 - val_loss: 0.3209 - val_acc: 0.9140
+Epoch 5/15
+7627/7627 [==============================] - 30s - loss: 0.1324 - acc: 0.9571 - val_loss: 0.3305 - val_acc: 0.9161
+Epoch 6/15
+7627/7627 [==============================] - 30s - loss: 0.1028 - acc: 0.9674 - val_loss: 0.3161 - val_acc: 0.9067
+Epoch 7/15
+7627/7627 [==============================] - 31s - loss: 0.0896 - acc: 0.9706 - val_loss: 0.3233 - val_acc: 0.9161
+Epoch 8/15
+7627/7627 [==============================] - 29s - loss: 0.0778 - acc: 0.9727 - val_loss: 0.3285 - val_acc: 0.9172
+Epoch 9/15
+7627/7627 [==============================] - 29s - loss: 0.0652 - acc: 0.9767 - val_loss: 0.3400 - val_acc: 0.9161
+Epoch 10/15
+7627/7627 [==============================] - 29s - loss: 0.0656 - acc: 0.9772 - val_loss: 0.3614 - val_acc: 0.9172
+Epoch 11/15
+7627/7627 [==============================] - 28s - loss: 0.0565 - acc: 0.9782 - val_loss: 0.3607 - val_acc: 0.9182
+Epoch 12/15
+7627/7627 [==============================] - 29s - loss: 0.0514 - acc: 0.9813 - val_loss: 0.3793 - val_acc: 0.9214
+Epoch 13/15
+7627/7627 [==============================] - 28s - loss: 0.0477 - acc: 0.9806 - val_loss: 0.3623 - val_acc: 0.9151
+Epoch 14/15
+7627/7627 [==============================] - 28s - loss: 0.0453 - acc: 0.9807 - val_loss: 0.3832 - val_acc: 0.9182
+Epoch 15/15
+7627/7627 [==============================] - 30s - loss: 0.0415 - acc: 0.9823 - val_loss: 0.4228 - val_acc: 0.9214
+928/954 [============================>.] - ETA: 0s
+Test score: 0.422817852387
+Test accuracy: 0.921383648798
